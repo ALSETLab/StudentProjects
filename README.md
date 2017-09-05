@@ -1,6 +1,6 @@
-# List of Projects
+# List of Power System Modeling, Computing and Identification Projects
 
-This repository provides a list of projects to do with DOME and/or using Modelica (preferably both); primarily to leave as end-of-course project/exam.
+This repository provides a list of projects to do as end-of-course project/exam, a semester-long project course, or as a MSc thesis project.
 
 Several types of projects are listed:
 - Introductory projects are suitable for BSc students,
