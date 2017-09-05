@@ -15,18 +15,65 @@ This list is coordinated between Federico Milano at UCD Dublin and Luigi Vanfret
 ### Modeling and Simulation of the "Electromagnet" Example
 From: Luigi Vanfretti
 
-To implement the Electromagnet model using the Modelica language, and utilizing the different time-scale representations as shown in Chapter 1 of Federico's book.
+To implement the Electromagnet model using the Modelica language and the DOME software, and utilizing the different time-scale representations as shown in Chapter 1 of Federico Milano's book, Power System Modeling and Scripting.
+
+The student will learn about physical-first-principle-based modeling, simulation and computing.
+
+### PSS/E Equivalent Modelica models for the OpenIPSL
+Add text.
+
+### PSFL Equivalent Modelica models for the OpenIPSL
+Add text.
+
+### Wind-Farm Plant Controller and Wind-Farm Models in OpenIPSL
+Add text.
+
+### Photovoltaic Farm Plant Controller and Wind-Farm in OpenIPSL
+Add text.
+
+## Uncertainty Modeling of Renewable Resources in the NYS Grid for Power Flow and Dynamic simulations
+Add text.
 
 ## Intermediate Projects
+
+### Modeling of Valve and Control Systems in  Multi-Domain Gas-Turbine and Power System Models
+Add text.
+
+### Uncertainty Quantification for Synchrophasor/PMU Mode-Estimation applications
+Add text.
+
 ### Model Identification for the MOSTAR power plant
+From: Luigi Vanfretti
+
 The MOSTAR power plant is located in Bosnia/Herzegovia. Measurements are available for an array of commissioning tests of the excitation control system in the power plant; however, limited model information is available.
 
-The project aims to identify the models that can be used to model the power plant under incomplete information.
+The project aims to identify different types of  models that can be used to model the power plant, and in particular, the plant's turbine and governor, under incomplete information. Models include physical-first-principle-based models, grey-box models, and the combination of the two above.
 
 The student will learn about power system dynamics, control and identification principles, as well as the Modelica language, the OpenIPSL library and RaPId; one proof of concept example is already available and to be used as basis of this project:
 -  https://www.youtube.com/watch?v=X8X89l1HBjo
+- https://github.com/ALSETLab/RaPId
+- http://ieeexplore.ieee.org/document/6910866/
 
 ## Advanced Projects
+### VSC HVDC Switching Models and DC Grid Models in Modelica
+From: Luigi Vanfretti
+
+HVDC technologies continue to attract attention due to their virtues in applications such as long distance transmission and integration of renewable energy sources.
+
+Modeling of HVDC systems is typically carried out using EMTP-type tools for industrial purposes. However, for research purposes it is necessary to use models in other environments. Previous work in modeling HVDC systems in Modelica has been focused on three-phase average-valued-models and high-level controls; meanwhile other work has implemented both average-valued-models with controls and switching models using Matlab/Simulink, including DC-grid networks.
+
+This work aims to build all average and switching models in Modelica, and to carry out a simulation performance assessment comparing different tools: EMTP-RV, Matlab/Simulink and Modelica-compliant tools.
+
+The value of using Modelica is that it allows for tool-independent model re-use, and the possibility to use these models in other simulation and computing environments through the FMI standard for co-simulation. While the models implemented in Matlab/Simulink and EMTP-RV cannot be exchanged easily.
+
+The student will learn about EMT-type modeling, simulation, and the Modelica language.
+
+See previous work in Modelica and EMTP-RV in this link:
+- https://github.com/ALSETLab/2017_ModelicaConf_VSC-HVDC_AVM_Model
+See previous work in Matlab/Simulink in these links:
+- http://ieeexplore.ieee.org/document/6866825/
+- http://ieeexplore.ieee.org/document/6866784/
+
 ### State Matrix Conditioning to improve the Robustness of Power System Small-signal Stability Analysis
 From: Federico Milano
 
@@ -67,11 +114,12 @@ This project consists in defining and testing a hybrid dynamic model of distance
 
 The student will develop skills in power system protections, modelling and transient stability analysis.
 
-ME additional task consists in including noise and uncertainty in the simulated measured quantities, evaluate their effect on the dynamic response of the power system and propose remedial actions to reduce such impact.
+Additional tasks consists in including noise and uncertainty in the simulated measured quantities, evaluate their effect on the dynamic response of the power system and propose remedial actions to reduce such impact.
 
 ### Design of a frequency controlled load on a microcomputer
 From: Federico Milano
 
 In recent years, demand response and, in particular, load frequency control have become a very active area of research. There are both economic and technical challenges to be solved. In this project, the focus is on modelling and control aspects.
+
 The project consists in designing a simple thermal load dynamic model with a frequency controller on a microcomputer (e.g., Arduino, Raspberry PI or Teensy) and connecting it to a software tool that simulates the dynamics of the  remainder of the power system. Such a tool can be based on Matlab/Simulink or any other software package chosen by the student. The main goals of the project are to understand the concepts of hybrid systems, co-simulation and real-time simulation.
 The student will develop skills in power system control, numerical methods for time domain integration, co-simulation and microcomputer programming.
