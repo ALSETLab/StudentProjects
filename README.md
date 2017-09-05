@@ -18,12 +18,15 @@ From: Luigi Vanfretti
 To implement the Electromagnet model using the Modelica language, and utilizing the different time-scale representations as shown in Chapter 1 of Federico's book.
 
 ## Intermediate Projects
-### Model Calibration for the MOSTAR power plant
-The MOSTAR power plant is located in Bosnia/Herzegovia.
+### Model Identification for the MOSTAR power plant
+The MOSTAR power plant is located in Bosnia/Herzegovia. Measurements are available for an array of commissioning tests of the excitation control system in the power plant; however, limited model information is available.
 
+The project aims to identify the models that can be used to model the power plant under incomplete information.
+
+The student will learn about power system dynamics, control and identification principles, as well as the Modelica language, the OpenIPSL library and RaPId; one proof of concept example is already available and to be used as basis of this project:
+-  https://www.youtube.com/watch?v=X8X89l1HBjo
 
 ## Advanced Projects
-
 ### State Matrix Conditioning to improve the Robustness of Power System Small-signal Stability Analysis
 From: Federico Milano
 
